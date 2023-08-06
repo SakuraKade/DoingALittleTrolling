@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -31,13 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Resources\Microsoft Windows XP Error - Sound Effect %28HD%29 %28128 kbps%29.wav">
+    <None Update="Resources\Microsoft Windows XP Error - Sound Effect (HD) (128 kbps) (NotUsed).wav">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Update="Resources\Pop Cat.wav">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Resources\rickroll, but it never starts %28320 kbps%29.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

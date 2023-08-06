@@ -1,3 +1,5 @@
+using Microsoft.Win32;
+
 namespace DoingABitOfTrolling;
 
 internal static class Program
@@ -10,8 +12,8 @@ internal static class Program
     [STAThread]
     static void Main()
     {
-        // To customize application configuration such as set high DPI settings or default font,
-        // see https://aka.ms/applicationconfiguration.
+        SetCurrentDirToAppDirIfFound();
+
         ApplicationConfiguration.Initialize();
         try
         {
@@ -26,6 +28,19 @@ internal static class Program
         Task.Delay(-1).Wait();
     }
 
+    static void SetCurrentDirToAppDirIfFound()
+    {
+        const string key = "Software\\SakuraKadeHansen\\DoingABitOfTrolling";
+        const string pathValue = "Path";
+        try
+        {
+            string? path = (string?)Registry.GetValue(key, pathValue, null);
+            if (path == null) return;
+            if (!Directory.Exists(path)) return;
+            Directory.SetCurrentDirectory(path);
+        }
+        catch { }
+    }
 
     static async void MainAsync(CancellationToken token)
     {

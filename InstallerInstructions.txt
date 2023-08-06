@@ -1,0 +1,3 @@
+You are gonna need to use AdvancedInstaller, which is a third party tool.
+Some configuration maybe neeeded.
+Open up the aip file and build and run it.
