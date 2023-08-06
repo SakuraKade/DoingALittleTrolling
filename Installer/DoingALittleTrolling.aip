@@ -32,6 +32,7 @@
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
     <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="NewFolder_Dir" Directory_Parent="APPDIR" DefaultDir="RESOUR~1|Resources"/>
     <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
     <ROW Directory="StartupFolder" Directory_Parent="TARGETDIR" DefaultDir="STARTU~1|StartupFolder" IsPseudoRoot="1"/>
     <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
@@ -51,6 +52,7 @@
     <ROW Component="Microsoft.Win32.Registry.AccessControl.dll" ComponentId="{4083DA43-410E-4CD7-B772-3B0CE94F2A35}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Win32.Registry.AccessControl.dll"/>
     <ROW Component="Microsoft.Win32.Registry.dll" ComponentId="{55408C36-0D43-4F96-98D7-5A0BF0A88D01}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Win32.Registry.dll"/>
     <ROW Component="Microsoft.Win32.SystemEvents.dll" ComponentId="{0C3A57BB-4F24-4C24-8745-D9DAA4F7A9F4}" Directory_="APPDIR" Attributes="0" KeyPath="Microsoft.Win32.SystemEvents.dll"/>
+    <ROW Component="PopCat.wav" ComponentId="{FD99DAA1-1E87-496A-A422-96D8563D162C}" Directory_="NewFolder_Dir" Attributes="0" KeyPath="PopCat.wav" Type="0"/>
     <ROW Component="ProductInformation" ComponentId="{7D984A77-6F3D-4110-9373-D16FC342566F}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
     <ROW Component="SHORTCUTDIR" ComponentId="{6102448B-7FC8-4438-967F-80BB5119813B}" Directory_="SHORTCUTDIR" Attributes="0"/>
     <ROW Component="System.AppContext.dll" ComponentId="{B337ED43-32A9-442C-A41F-70D72CD1B1C8}" Directory_="APPDIR" Attributes="0" KeyPath="System.AppContext.dll"/>
@@ -419,9 +421,10 @@
     <ROW File="System.Xml.XDocument.dll" Component_="System.Xml.XDocument.dll" FileName="SYST~169.DLL|System.Xml.XDocument.dll" Attributes="0" SourcePath="..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.20\ref\net6.0\System.Xml.XDocument.dll" SelfReg="false"/>
     <ROW File="System.Xml.XmlDocument.dll" Component_="System.Xml.XmlDocument.dll" FileName="SYST~170.DLL|System.Xml.XmlDocument.dll" Attributes="0" SourcePath="..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.20\ref\net6.0\System.Xml.XmlDocument.dll" SelfReg="false"/>
     <ROW File="WindowsBase.dll" Component_="WindowsBase.dll" FileName="WINDOW~1.DLL|WindowsBase.dll" Attributes="0" SourcePath="..\..\..\..\..\..\..\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.20\ref\net6.0\WindowsBase.dll" SelfReg="false"/>
-    <ROW File="PopCat.wav" Component_="DoingABitOfTrolling.runtimeconfig.json" FileName="POPCAT~1.WAV|Pop Cat.wav" Attributes="0" SourcePath="..\DoingABitOfTrolling\bin\Release\net6.0-windows7.0\Resources\Pop Cat.wav" SelfReg="false"/>
+    <ROW File="PopCat.wav" Component_="PopCat.wav" FileName="POPCAT~1.WAV|Pop Cat.wav" Attributes="0" SourcePath="..\DoingABitOfTrolling\Resources\Pop Cat.wav" SelfReg="false"/>
     <ROW File="DoingABitOfTrolling.exe" Component_="DoingABitOfTrolling.exe" FileName="DOINGA~1.EXE|DoingABitOfTrolling.exe" Attributes="0" SourcePath="..\DoingABitOfTrolling\bin\Release\net6.0-windows7.0\DoingABitOfTrolling.exe" SelfReg="false" DigSign="true"/>
     <ROW File="DoingABitOfTrolling.pdb" Component_="DoingABitOfTrolling.exe" FileName="DOINGA~1.PDB|DoingABitOfTrolling.pdb" Attributes="0" SourcePath="..\DoingABitOfTrolling\bin\Release\net6.0-windows7.0\DoingABitOfTrolling.pdb" SelfReg="false"/>
+    <ROW File="rickrollbutitneverstarts.wav" Component_="PopCat.wav" FileName="RICKRO~1.WAV|rickroll but it never starts.wav" Attributes="0" SourcePath="..\DoingABitOfTrolling\Resources\rickroll but it never starts.wav" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.custcomp.MsiShortcutPropertyComponent">
     <ROW MsiShortcutProperty="DoingABitOfTrolling0" Shortcut_="DoingABitOfTrolling" PropertyKey="System.AppUserModel.PreventPinning" PropVariantValue="1"/>
@@ -690,6 +693,7 @@
     <ROW Feature_="MainFeature" Component_="DoingABitOfTrolling.exe"/>
     <ROW Feature_="MainFeature" Component_="SHORTCUTDIR"/>
     <ROW Feature_="MainFeature" Component_="DoingABitOfTrolling"/>
+    <ROW Feature_="MainFeature" Component_="PopCat.wav"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="DoingABitOfTrollingIcon.exe" SourcePath="..\DoingABitOfTrolling\DoingABitOfTrollingIcon.ico" Index="0"/>
