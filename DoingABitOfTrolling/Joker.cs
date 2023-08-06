@@ -9,7 +9,7 @@ namespace DoingABitOfTrolling
             Extentions.Random random = new Extentions.Random();
 
             const float minTimeBetweenPunishmentsInSeconds = 10;
-            const float maxTimeBetweenPunishmentsInSeconds = 3600; // 3600 one hour
+            const float maxTimeBetweenPunishmentsInSeconds = 7200; // 7200 two hours
             JokeHat jokeHat = new JokeHat();
             jokeHat.Add(new PopCatEvent());
             jokeHat.Add(new RickEvent());
