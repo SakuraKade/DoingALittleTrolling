@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoingABitOfTrolling", "DoingABitOfTrolling\DoingABitOfTrolling.csproj", "{8CB20F72-412F-49E3-A505-48A155075E81}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DoingABitOfTrollingInstaller", "DoingABitOfTrollingInstaller\DoingABitOfTrollingInstaller.vdproj", "{67D28070-5155-4C5C-9275-763AB45B3969}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8931F1E7-268A-46AD-9E4B-FBEBE011FB04}"
+	ProjectSection(SolutionItems) = preProject
+		Installer\DoingALittleTrolling.aip = Installer\DoingALittleTrolling.aip
+		InstallerInstructions.txt = InstallerInstructions.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,6 @@ Global
 		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x64.Build.0 = Release|Any CPU
 		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x86.ActiveCfg = Release|Any CPU
 		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x86.Build.0 = Release|Any CPU
-		{67D28070-5155-4C5C-9275-763AB45B3969}.Debug|Any CPU.ActiveCfg = Debug
-		{67D28070-5155-4C5C-9275-763AB45B3969}.Debug|x64.ActiveCfg = Debug
-		{67D28070-5155-4C5C-9275-763AB45B3969}.Debug|x86.ActiveCfg = Debug
-		{67D28070-5155-4C5C-9275-763AB45B3969}.Release|Any CPU.ActiveCfg = Release
-		{67D28070-5155-4C5C-9275-763AB45B3969}.Release|x64.ActiveCfg = Release
-		{67D28070-5155-4C5C-9275-763AB45B3969}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
