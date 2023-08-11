@@ -3,36 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoingABitOfTrolling", "DoingABitOfTrolling\DoingABitOfTrolling.csproj", "{8CB20F72-412F-49E3-A505-48A155075E81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoingABitOfTrolling", "DoingABitOfTrolling\DoingABitOfTrolling.csproj", "{FE825CD2-5CAD-4EAD-B15F-096344E21520}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8931F1E7-268A-46AD-9E4B-FBEBE011FB04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoingABitOfTrolling.Lib", "DoingABitOfTrolling.Lib\DoingABitOfTrolling.Lib.csproj", "{838F6B10-DB99-4FCE-B6D0-399F67F9BAF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoingABitOfTrolling.Test", "DoingABitOfTrolling.Test\DoingABitOfTrolling.Test.csproj", "{2DD36F4D-E4A9-4887-A7C0-EC3132EC01AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C8980D9-A32F-4372-AE20-4D26DB39E640}"
 	ProjectSection(SolutionItems) = preProject
-		Installer\DoingALittleTrolling.aip = Installer\DoingALittleTrolling.aip
-		InstallerInstructions.txt = InstallerInstructions.txt
+		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Debug|x64.Build.0 = Debug|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Debug|x86.Build.0 = Debug|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x64.ActiveCfg = Release|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x64.Build.0 = Release|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x86.ActiveCfg = Release|Any CPU
-		{8CB20F72-412F-49E3-A505-48A155075E81}.Release|x86.Build.0 = Release|Any CPU
+		{FE825CD2-5CAD-4EAD-B15F-096344E21520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE825CD2-5CAD-4EAD-B15F-096344E21520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE825CD2-5CAD-4EAD-B15F-096344E21520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE825CD2-5CAD-4EAD-B15F-096344E21520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838F6B10-DB99-4FCE-B6D0-399F67F9BAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838F6B10-DB99-4FCE-B6D0-399F67F9BAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838F6B10-DB99-4FCE-B6D0-399F67F9BAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838F6B10-DB99-4FCE-B6D0-399F67F9BAF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD36F4D-E4A9-4887-A7C0-EC3132EC01AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD36F4D-E4A9-4887-A7C0-EC3132EC01AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD36F4D-E4A9-4887-A7C0-EC3132EC01AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD36F4D-E4A9-4887-A7C0-EC3132EC01AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
