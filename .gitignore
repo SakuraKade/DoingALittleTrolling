@@ -351,3 +351,5 @@ MigrationBackup/
 Installer/DoingALittleTrolling-AnyCPU_Release-SetupFiles/
 
 Installer/DoingALittleTrolling-cache/
+
+*.bkp
