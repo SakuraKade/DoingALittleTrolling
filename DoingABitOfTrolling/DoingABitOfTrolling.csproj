@@ -16,28 +16,4 @@
     <ProjectReference Include="..\DoingABitOfTrolling.Lib\DoingABitOfTrolling.Lib.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="Jokes\Rick\Resources\EmbeddedRickAudioResource.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>EmbeddedRickAudioResource.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Jokes\Rick\Resources\EmbededRickResources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>EmbededRickResources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Jokes\Rick\Resources\EmbeddedRickAudioResource.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>EmbeddedRickAudioResource.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Jokes\Rick\Resources\EmbededRickResources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>EmbededRickResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-
 </Project>
